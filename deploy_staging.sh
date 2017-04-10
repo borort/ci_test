@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh -v ubuntu@54.238.233.243 << EOF
+ssh -v -i ~/.ssh/id_staging ubuntu@54.238.233.243 << EOF
 
 echo '1. Updating sources'
 cd ~/GitHub/
