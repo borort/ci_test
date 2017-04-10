@@ -1,8 +1,8 @@
 deployment: 
   staging: 
     branch: master
-      commands: 
-        - ./deploy_staging.sh
+    commands: 
+      - ./deploy_staging.sh
 
 test: 
   override: 
