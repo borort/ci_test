@@ -1,3 +1,10 @@
+deployment:
+  staging:
+    branch: master
+      commands:
+        - ./deploy_staging.sh
+
 test:
   override:
     - echo 'no tests, just say us Okay!'
+
